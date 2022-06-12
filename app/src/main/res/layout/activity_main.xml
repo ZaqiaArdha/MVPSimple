@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Panjang :"/>
+
+    <EditText
+        android:id="@+id/etPanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Panjang"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lebar :"/>
+    <EditText
+        android:id="@+id/etLebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Lebar"
+        />
+
+    <Button
+        android:id="@+id/btnLuas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnKeliling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Keliling"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil Persegi Panjang :"/>
+    <TextView
+        android:id="@+id/tvHasilPP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil Persegi :"/>
+    <TextView
+        android:id="@+id/tvHasilP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+
+
+
+</LinearLayout>
